@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+    position: absolute;
+    box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.068);
+    padding: 15px;
+    height: 28rem;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.card > img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card > h1.title {
+    color: hsl(218, 44%, 22%);
+    width: 90%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.card > p.text {
+    color: hsl(220, 15%, 55%);
+    width: 90%;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media (max-width: 290px){
+    .card {
+    box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.068);
+    padding: 15px;
+    height: 22.5rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    }
+    .card > h1.title {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .card > p.text {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-height: 469px){
+    .card {
+        box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.068);
+        padding: 15px;
+        height: 21rem;
+        width: 12rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.4rem;
+        align-items: center;
+        background-color: white;
+        border-radius: 20px;
+        }
+    .card > h1.title{
+        width: 90%;
+        font-size: 0.9rem;
+    }
+    .card > p.text {
+        font-size: 0.7rem;
+    }
+}
