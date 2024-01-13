@@ -15,6 +15,10 @@ h3 {
     color:hsl(292, 42%, 14%);
     font-size: 0.9rem;
 }
+h3:hover {
+    cursor: pointer;
+    color: #AD28EB;
+}
 body {
     background-image: url(assets/images/background-pattern-desktop.svg);
     display: flex;
@@ -67,3 +71,22 @@ body {
     width: 27rem;
     border-radius: 10px;
 }
+
+@media (max-width: 500px){
+    p {
+        font-size: 10px;
+    }
+    h1 {
+        color:hsl(292, 42%, 14%);
+        font-size: 2.3rem;
+    }
+    h3 {
+        color:hsl(292, 42%, 14%);
+        font-size: 0.7rem;
+    }
+    .card{
+            margin: 10px;
+            width: 20rem;
+            max-height: 55rem;
+        }
+    }
