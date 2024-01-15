@@ -6,7 +6,7 @@ const star4 = document.querySelector('#h4').addEventListener("click", () => togg
 function toggle(tag, tag1) {
     let h = document.querySelector(tag1)
     let p = document.querySelector(tag)
-    if (p.classList.contains("none") || h.classList.contains("star")) {
+    if (p.classList.contains("none") && h.classList.contains("star")) {
         h.classList.remove("star")
         h.classList.toggle("no-star")
         p.classList.remove("none")
