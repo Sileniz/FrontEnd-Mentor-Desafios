@@ -10,4 +10,4 @@ Sinta-se livre para olhar meu perfil também diretamente no <a href="https://www
 
 <p>Por enquanto é isso!<p>
 
-<p>PS: Esse repositório também serve pra colocar em prática meus estudos sobre git, então deve ter umas coisas meio estranhas aqui 🤐</p>
+<p>PS: Esse repositório também serve pra colocar em prática meus estudos sobre git, então deve ter umas coisas meio estranhas aqui 🤐..</p>
